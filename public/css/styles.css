@@ -1,0 +1,146 @@
+body { 
+    width:100%;
+    height:100%;
+    background: #F0F0F0;
+    margin: 0 auto;
+    position: absolute;
+  }
+
+.shapely_home_parallax {
+	width: 100%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.shapely_home_parallax > section:not(.image-bg) .btn-white {
+	border-color: #745cf9;
+	color: #745cf9;
+}
+
+.shapely_home_parallax > section:not(.image-bg) .btn-white:hover,
+.shapely_home_parallax > section:not(.image-bg) .btn-white:focus {
+	color: #fff;
+	background-color: #5234f9;
+	border-color: #5234f9;
+}
+
+.shapely_home_parallax > section:not(.image-bg) .btn-white:active {
+	border-color: #5234f9;
+	background-color: #5234f9;
+	color: #fff;
+}
+
+.bg-secondary .text-right {
+	z-index: 2;
+}
+
+
+.align-children {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	-webkit-align-items: center;
+	justify-content: center;
+	-webkit-justify-content: center;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+}
+
+@media all and (max-width: 991px) {
+	.align-children {
+		display: block !important;
+  }
+}
+
+
+.mb32 {
+	margin-bottom: 32px;
+}
+
+.btn-filled, a
+.btn-filled,
+.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+	background: #32394B;
+	color: #fff;
+}
+
+.image-bg .btn.btn-filled {
+	background: #32394B;
+	color: #fff;
+	border-color: #32394B;
+}
+
+.image-bg .btn.btn-filled:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, 
+.woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit:hover, 
+.woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover {
+	background: #32394B;
+	/* border-color: #32394B; */
+	color: #fff;
+}
+
+.btn-filled:visited {
+	color: #fff;
+}
+
+.btn-filled:hover, .btn:visited:hover {
+	background: #32394B;
+	/* border-color: #32394B; */
+}
+
+@media (max-width: 990px)
+{
+.profile_img {
+    width: 70%;
+}
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+	display: block;
+}
+
+
+.fa-linkedin:before {
+  font-size: 1em;
+  border-bottom: 3px solid #0087cb;
+}
+
+.green{
+	background-color: #AECEDA;
+}
+
+.privacyPage{
+	width: 70%;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-top: 2em;
+}
+
+.copyright{
+	display: grid;
+	margin: 5px;
+}
+
+@media (max-width: 600px)
+{
+.col-four {
+    width: 100%;
+}
+}
+
+@media (max-width: 800px)
+{
+.col-four {
+	width: 50%;
+}
+}

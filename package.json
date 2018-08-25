@@ -1,0 +1,27 @@
+{
+  "name": "cove-markets",
+  "version": "1.0.0",
+  "description": "Cove Markets Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/covemarkets/website.git"
+  },
+  "author": "Taiwo Tejuosho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/covemarkets/website/issues"
+  },
+  "homepage": "https://github.com/covemarkets/website#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.0",
+    "sequelize-cli": "^4.1.1"
+  }
+}
