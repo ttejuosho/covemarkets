@@ -35,7 +35,7 @@ module.exports = function(app) {
 
 // POST route saving for new Contact
   app.post("/api/mlist", function(req,res){
-    console.log(req.body);
+    //console.log(req.body);
     db.MailingList.create({
       firstName: req.body.firstName,
       lastName: req.body.lastName,
